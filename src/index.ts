@@ -19,8 +19,7 @@ export const get = async (code:string | number = TOKYO) => {
       console.log(data.winds);
       console.log(data.waves);
     });
-  } catch(error ) {}
+  } catch(error) {
+    console.log(error);
+  }
 }
-
-
-get()
