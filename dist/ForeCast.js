@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.NAGANO = exports.KANAGAWA = exports.CHIBA = exports.TOKYO = exports.SAITAMA = void 0;
+const SAITAMA = 110000;
+exports.SAITAMA = SAITAMA;
+const TOKYO = 130000;
+exports.TOKYO = TOKYO;
+const CHIBA = 120000;
+exports.CHIBA = CHIBA;
+const KANAGAWA = 140000;
+exports.KANAGAWA = KANAGAWA;
+const NAGANO = 200000;
+exports.NAGANO = NAGANO;

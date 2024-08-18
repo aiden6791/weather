@@ -1,4 +1,6 @@
 export interface WeatherDetails {
+  publishingOffice: string,
+  reportDatatime: string,
   timeSeries: [{
     timeDefines: string[],
     areas: [{
@@ -6,7 +8,7 @@ export interface WeatherDetails {
         name: string,
         code: string,
       };
-      temps: string,
+      temps: string[],
       weathers: string[],
       winds: string[],
       waves: string[],
